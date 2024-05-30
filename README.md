@@ -1,6 +1,7 @@
 # SOLARIS AI
 
-This is a project i made to learn how to use gemini api to build AI-powered web apps.
+This is a project i made to learn how to use gemini api to build AI-powered web apps.<br>
+link ==> https://6658aa5ab69bc23d7c96785e--gilded-pika-22e05d.netlify.app
 
 to use this project in your machine you need:<br>
 *install node js*<br>
