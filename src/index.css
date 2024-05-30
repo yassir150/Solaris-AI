@@ -1,0 +1,59 @@
+@font-face { font-family: Monoton; src: url('./assets/Monoton-Regular.ttf'); } 
+.app{
+    width: 80vw;
+    margin: 10vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-section{
+    width: 100vw;
+    height: 100%;
+}
+.result{
+    margin-top: 10px;
+    /* overflow: scroll; */
+}
+.input-container{
+    width: 100%;
+    display: flex;
+    border: solid 1px #000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.input-container input{
+    border: none;
+    padding: 13px 14px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius : 6px 0px 0px 6px;
+    width: 90%;
+    font-weight: 200;
+}
+.input-container input::placeholder{
+    color: #909090;
+}
+.input-container button{
+    min-width: 10%;
+    border: none;
+    background-color: white;
+    border-left :1px solid #000;
+    color:#000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.input-container button:active{
+    background-color: #000;
+    color: #fff;
+}
+.answer{
+    padding: 13px 14px;
+    border: solid 0.5px #000;
+    background-color: white;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 200;
+    border-radius: 6px;
+}
